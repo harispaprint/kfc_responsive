@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    font-family: calibri;
+}
+/**box 1**/
+.banner{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.banner-image{
+    width: 40%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.banner-button{
+    height: 30px;
+    font-size: 12px;
+    width: 99px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 3px 9px;
+    margin-left: 23px;  
+    background-color:black;
+    color: white;
+    border-radius: 15px;
+    align-items: center;
+}
+
+/**box 2**/
+.banner-logo{
+   
+    height: 102px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.banner-logo-left{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: auto;
+}
+.banner-logo-left p{
+    font-weight: 700;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.banner-logo-right p{
+    font-weight: 700;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.banner-logo-right{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 16px;
+    margin-right: 50px;
+}
+.logo1{
+    width: 76px;
+}
+
+/**box 3**/
+.caption{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.caption p{
+    font-weight: 700;
+    color: white;
+}
+.banner-button2{
+    height: 2.75rem;
+    min-width: 10.3rem;
+    font-size: .9rem;
+    width: 99px;
+    font-style: normal;
+    line-height: 22px;
+    padding: 3px 9px;
+    margin-left: 23px;  
+    background-color:#e4002b;
+    color: white;
+    border-radius: 1.4rem;
+    align-items: center;
+}
+.hero-image{
+    height: 380px;
+    background-image: url(Images/Hero\ image.webp);
+}
+.caption-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/**Section-2 - Food Section**/
+    .food-row{
+        justify-content: center;
+    }
+  .card{
+    width: 15rem; 
+    margin: 1.2rem;
+  }
+
+  /**Offer Section**/
+  .offer-section{
+    height: 650px;
+    background-color: #202124;
+  }
+  .top-rec-design{
+    width: 80px;
+    height: 42px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 200px;
+  }
+  .offer-sec-content{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.offer-header{
+    margin-left: 200px;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 40px;
+}
+.offer-sec-items{
+    height: 398px;
+    width: 309px;
+    margin: 2%;
+    position: relative;
+    background-color: #f8f7f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+
+}
+.offer-sec-items p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: auto;
+    font-family: fantasy;
+    letter-spacing: .5px;
+    line-height: 20px;
+    color: #e4002b;
+    font-size: 25px;
+}
+.box-image1{
+    height: 58.25%;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 1 rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+.offers-ribbon {
+    position: absolute;
+    top: 20px; /* Adjust ribbon position as needed */
+    left: 20px; /* Adjust ribbon position as needed */
+    background-color: #ff0000; /* Adjust ribbon color as needed */
+    color: white; /* Adjust text color as needed */
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    z-index: 1; /* Ensure the ribbon appears on top of the background image */
+  }
+.redeem-button{
+    height: 45px;
+    font-size: 14px;
+    width: 140px;
+    font-style: normal;
+    font-weight: 700;
+    border-width: 2px;
+    padding: 10px 40px;
+    margin: 10px;
+    margin-left: auto;
+    border: 1px solid #494949;
+    color: black;
+    border-radius: 10rem;
+    align-items: center;
+}
+.hover-hand-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  /**footer section**/
+footer{
+    border-top: 2px solid gray;
+    border-left-width: 1px;
+    background-color: #202124;
+
+  }
+.footer-content-row1{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 160px;
+    justify-content: space-evenly;
+  }
+.footer-logo{
+    background-image: url(Images/KFC_Logo_footer.svg);
+    height: 60px;
+    width: 60px;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+.footer-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 6px;
+    color: #dddddd;
+}
+.location-text2{
+    color: white;
+    text-decoration: underline;
+}
+.find-kfc{
+    height: 20px;
+    display: flex
+}
+.google-playstore-logo{
+    background-image: url(Images/google_play.svg);
+    height: 40px;
+    width: 130px;
+  }
+.apple-logo{
+    background-image: url(Images/apple.svg);
+    height: 40.5px;
+    width: 130px;
+  }
+.footer-content-row2{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.social-media-logos{
+    height: 50px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.footer-content-row2 p{
+    margin-left: 500px;
+}
